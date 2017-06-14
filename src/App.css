@@ -22,3 +22,14 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.Box {
+  width: 100px;
+  height: 100px;
+  background-color: gray;
+  display: inline-block;
+  margin:10px;
+}
+.Box.Active{
+  background-color: red;
+}

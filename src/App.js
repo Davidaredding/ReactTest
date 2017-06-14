@@ -1,21 +1,39 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 
-class App extends Component {
-  render() {
+class Box extends Component{
+
+    constructor(props){
+        super(props);
+        this.state = {Toggled: false};
+
+    }
+
+    handleClick = () => {
+        this.setState(p=>({Toggled: !p.Toggled}));
+    }
+
+    render() {
+        var classes = ["Box", this.state.Toggled?"Active":""].join(" ");
+        
+        return(
+            <div className={classes} onClick={this.handleClick}/>
+        )}
+
+}
+
+function App(props){
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h2>Welcome to React</h2>
+        <div>
+            <Box />
+            <Box />
+            <Box />
+            <Box />
+            <Box />
+            <Box />
+            <Box />
         </div>
-        <p className="App-intro">
-          reloaded
-        </p>
-      </div>
     );
-  }
 }
 
 export default App;

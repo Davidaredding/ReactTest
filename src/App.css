@@ -22,14 +22,31 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+.card{
+  display:inline-block;
+  border: 1px solid darkgray;
+  border-radius:5px;
+  width:90px;
+  height:140px;
+  box-shadow: 2px 2px 7px rgba(64,64,64,.5);
+  vertical-align: top;
+}
 
-.Box {
-  width: 100px;
-  height: 100px;
-  background-color: gray;
-  display: inline-block;
-  margin:10px;
+
+
+.card-face{
+  background-color: white;
 }
-.Box.Active{
-  background-color: red;
+
+.hand{
+  Margin-top: 20px;
+  Margin-left: 10px;
+  height:200px;
 }
+
+.hand .card:nth-child(n+3)
+{
+  margin-left:-60px;
+  margin-top:40px;
+}
+

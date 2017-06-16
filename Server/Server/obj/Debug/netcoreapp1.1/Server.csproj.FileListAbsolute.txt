@@ -1,0 +1,9 @@
+C:\Users\DRedding\WebstormProjects\aquire\Server\Server\bin\Debug\netcoreapp1.1\Server.deps.json
+C:\Users\DRedding\WebstormProjects\aquire\Server\Server\bin\Debug\netcoreapp1.1\Server.runtimeconfig.json
+C:\Users\DRedding\WebstormProjects\aquire\Server\Server\bin\Debug\netcoreapp1.1\Server.runtimeconfig.dev.json
+C:\Users\DRedding\WebstormProjects\aquire\Server\Server\bin\Debug\netcoreapp1.1\Server.dll
+C:\Users\DRedding\WebstormProjects\aquire\Server\Server\bin\Debug\netcoreapp1.1\Server.pdb
+C:\Users\DRedding\WebstormProjects\aquire\Server\Server\obj\Debug\netcoreapp1.1\Server.csprojResolveAssemblyReference.cache
+C:\Users\DRedding\WebstormProjects\aquire\Server\Server\obj\Debug\netcoreapp1.1\Server.AssemblyInfo.cs
+C:\Users\DRedding\WebstormProjects\aquire\Server\Server\obj\Debug\netcoreapp1.1\Server.dll
+C:\Users\DRedding\WebstormProjects\aquire\Server\Server\obj\Debug\netcoreapp1.1\Server.pdb

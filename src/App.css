@@ -32,21 +32,28 @@
   vertical-align: top;
 }
 
-
-
-.card-face{
-  background-color: white;
+.tile{
+  width:65px;
+  height:65px;
+  display: inline-block;
+  background-color: #36454F;
+  color:gray;
+  border:1px solid black;
+  text-align: center;
+  line-height: 4em;
+  cursor:pointer;
 }
 
-.hand{
-  Margin-top: 20px;
-  Margin-left: 10px;
-  height:200px;
+.tile.Selected{
+  background-color: gray;
+  color:#36454F;
 }
 
-.hand .card:nth-child(n+3)
-{
-  margin-left:-60px;
-  margin-top:40px;
+
+.playField{
+  display:flex;
+  flex-wrap: wrap;
+  width:805px;
 }
+
 
